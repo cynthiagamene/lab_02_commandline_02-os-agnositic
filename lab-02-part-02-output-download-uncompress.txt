@@ -118,7 +118,23 @@ Write the command you used below.  Also copy and paste the output below.
 11. Now let's download the lab file for this homework.  First, figure out what directory you're in.
 
 Write the command you used to determine your directory.  Also, copy and paste the output below.
-----------
+---------- ls
+           Alimata.Gamene74@login.cuny.edu Creative Cloud Files (enterprise)
+Creative Cloud Files
+Desktop
+Documents
+Downloads
+Dropbox
+Library
+Movies
+Music
+Pictures
+Public
+animals
+cynthiagamene
+mtec1002
+mtec1003
+old image.png
 
 
 
@@ -126,7 +142,7 @@ Write the command you used to determine your directory.  Also, copy and paste th
 12. If you're not in your home directory, change to it (use the shortcut).
 
 Write the command that you used to change to your home directory.  If you were already in your home directory, write the command that you *would* have used to change to it!
-----------
+----------  ls~
 
 
 
@@ -137,7 +153,7 @@ https://entertainmenttechnology.github.io/Viera-MTEC1003-fall-2018/mtec1003-lab-
 
 Download the file using curl... to a file called mtec1003-lab-02.zip using the commandline.  
 
-REMEMBER to use the -o flag, and follow it with a .zip extension! 
+REMEMBER to use the -o flag, and follow it with a .zip extention!
 
 Use ls to verify that it downloaded.
 
@@ -150,7 +166,7 @@ Write down the command that you used to download the file below.  Additionally, 
 14. We learned a command to uncompress a .zip file.  Use it to extract the files and folders from the file you just downloaded.
 
 Write down the command that you used to uncompress the file.
-----------
+---------- unzip filename.zip
 
 
 
@@ -169,7 +185,16 @@ We're going to mess around with archiving and compressing files.  We'll make a d
 16. Go back up to your home directory.  Create a directory called stuff.  List the contents of your home directory to prove that the directory was created.
 
 Copy and paste the output below.
-----------
+---------- 
+Alimata.Gamene74@login.cuny.edu Creative Cloud Files (enterprise)       Pictures
+Creative Cloud Files                                                    Public
+Desktop                                                                 animals
+Documents                                                               cynthiagamene
+Downloads                                                               mtec1002
+Dropbox                                                                 mtec1003
+Library                                                                 old image.png
+Movies                                                                  stuff
+Music
 
 
 
@@ -181,7 +206,7 @@ $ echo "hi" > hello.txt
 List the files in the directory you're currently in (which should be stuff).  
 
 Copy and paste the output below.
-----------
+----------  
 
 
 
