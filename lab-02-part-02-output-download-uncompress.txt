@@ -65,7 +65,7 @@ Copy and paste the output below.
 $ echo *
 
 What happens?
----------- its goes to my desktop : BLANC.png Gaddis Python 2e Chapter 05 PPT.ppt My-stuff even-more-stuff more-stuff stuff
+---------- its goes to my files :Alimata.Gamene74@login.cuny.edu Creative Cloud Files (enterprise) Creative Cloud Files Desktop Documents Downloads Dropbox Library Movies Music Pictures Public animals cynthiagamene mtec1002 mtec1003 old image.png
 
 
 
@@ -73,7 +73,7 @@ What happens?
 7. Ok... that's a lot of output.  How do we clean up our screen so that it's empty again?
 
 Write the command that you used below:
----------- 
+---------- clear
 
 
 
@@ -110,7 +110,7 @@ Copy and paste the output below, but not the whole thing!  Just copy up to the p
 10. That's great, but what if I want to save the file?  What flag/option and option argument would I use to download the page to a file called google.html?  Run it to download the URL www.google.com.
 
 Write the command you used below.  Also copy and paste the output below.
-----------
+---------- curl -0 google.html.txt http://someurl.com
 
 
 
