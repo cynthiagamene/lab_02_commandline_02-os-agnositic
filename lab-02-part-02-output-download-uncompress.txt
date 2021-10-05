@@ -17,7 +17,7 @@ We're going to be echoing stuff to the console and cleaning it up.
 $ echo hello
 
 Copy and paste the output below.
-----------
+----------hello
 
 
 
@@ -27,7 +27,7 @@ Copy and paste the output below.
 $ echo hello there
 
 Copy and paste the output below.
-----------
+----------hello there
 
 
 
@@ -37,7 +37,7 @@ Copy and paste the output below.
 $ echo good mornin'
 
 Copy and paste the output below.
-----------
+---------- > 
 
 
 
@@ -45,7 +45,7 @@ Copy and paste the output below.
 4. Uh-oh... we're stuck!
 
 Type [CTRL + C] to get your prompt back.
-----------
+---------- 
 
 
 
@@ -55,7 +55,7 @@ Type [CTRL + C] to get your prompt back.
 $ echo "good mornin'"
 
 Copy and paste the output below.
-----------
+---------- good mornin'
 
 
 
@@ -65,7 +65,7 @@ Copy and paste the output below.
 $ echo *
 
 What happens?
-----------
+---------- its goes to my desktop : BLANC.png Gaddis Python 2e Chapter 05 PPT.ppt My-stuff even-more-stuff more-stuff stuff
 
 
 
@@ -73,7 +73,7 @@ What happens?
 7. Ok... that's a lot of output.  How do we clean up our screen so that it's empty again?
 
 Write the command that you used below:
-----------
+---------- 
 
 
 
@@ -86,7 +86,12 @@ We're going to practice downloading files from a web site.  We'll use this pract
 $ curl google.com
 
 Copy and paste the output below.
-----------
+---------- <HTML><HEAD><meta http-equiv="content-type" content="text/html;charset=utf-8">
+<TITLE>301 Moved</TITLE></HEAD><BODY>
+<H1>301 Moved</H1>
+The document has moved
+<A HREF="http://www.google.com/">here</A>.
+</BODY></HTML>
 
 
 
@@ -97,6 +102,7 @@ $ curl www.google.com
 
 Copy and paste the output below, but not the whole thing!  Just copy up to the part that has the title tags (<title>......</title>).
 ----------
+<!doctype html><html itemscope="" itemtype="http://schema.org/WebPage" lang="en"><head><meta content="Search the world's information, including webpages, images, videos and more. Google has many special features to help you find exactly what you're looking for." name="description"><meta content="noodp" name="robots"><meta content="text/html; charset=UTF-8" http-equiv="Content-Type"><meta content="/images/branding/googleg/1x/googleg_standard_color_128dp.png" itemprop="image"><title>Google</title><script nonce="i+0HSbdeNm0B+KvIhV55kw==">(function(){window.google={kEI:'79pbYe26Nb2s5NoPsueC8AQ',kEXPI:'0,1302536,56873,6058,207,4
 
 
 
