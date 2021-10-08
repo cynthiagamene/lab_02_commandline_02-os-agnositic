@@ -158,7 +158,10 @@ REMEMBER to use the -o flag, and follow it with a .zip extention!
 Use ls to verify that it downloaded.
 
 Write down the command that you used to download the file below.  Additionally, write the output of the command below.
-----------
+---------- curl -o mtec10030-lab-02.zip https://entertainmenttechnology.github.io/Viera-MTEC1003-fall-2018/mtec1003-lab-02.zip
+           % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  920k  100  920k    0     0  2764k      0 --:--:-- --:--:-- --:--:-- 2756k
 
 
 
