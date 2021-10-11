@@ -111,7 +111,9 @@ Copy and paste the output below, but not the whole thing!  Just copy up to the p
 
 Write the command you used below.  Also copy and paste the output below.
 ---------- curl -0 google.html.txt http://someurl.com
-
+<meta http-equiv="refresh" content="1;url=/page/bouncy.php?&bpae=GbhGtrcipVx7NptPSTqWfpUXoq16bXpzI2khCQnVpUTvQ34AQgPIQiDumLgsc5bovr9daglldG0OSliaQ5UBNY5xQJyJ4jM9ezqqj2DgoMknEehv330aMOCQbCjqBK4AN8LDj053j0uJ%2BlZzrbneUEtXn%2Bnw2UDgnr36SU7wi4W0klJz6YPTKNUfeu56Wu1k7KYvTM26QHArIgdxWLH2Ege%2BgOCChCoRGCqcH3xD%2FKUsK4V1KpSKvTZgtfOZxPPIEZbX20SFI5m80CLDP4orCuyVvWR1o1gWrsiY%2BZPH9R1a0yyC52wUnRe2mCGq23%2BbfQJ00wq4kRhv01fpbdi30uu61yD57CedfNVj%2FXU6ZKJvVEVns%2FSYIgU8SrDAp6NZtL5Pt3LtVA%3D%3D&redirectType=meta" />
+                </noscript>
+        </head>
 
 
 ==========
@@ -169,7 +171,7 @@ Write down the command that you used to download the file below.  Additionally, 
 14. We learned a command to uncompress a .zip file.  Use it to extract the files and folders from the file you just downloaded.
 
 Write down the command that you used to uncompress the file.
----------- unzip filename.zip
+---------- unzip mtec1003-lab-02.zip
 
 
 
@@ -177,7 +179,14 @@ Write down the command that you used to uncompress the file.
 15. Change to the directory that was just created.  List the contents (of the directory that was extracted from the labs .zip file). 
 
 Copy and paste the output below.
-----------
+---------- Library
+Movies
+Music
+Pictures
+cynthiagamene
+mtec1002
+mtec1003
+mtec10030-lab-02.zip
 
 
 
@@ -209,7 +218,7 @@ $ echo "hi" > hello.txt
 List the files in the directory you're currently in (which should be stuff).  
 
 Copy and paste the output below.
-----------  
+----------  stuff
 
 
 
@@ -221,7 +230,26 @@ $ tar -cvf stuff.tar stuff
 List the files in the directory you're currently in (which should be home).  
 
 Copy and paste the output below.
-----------
+----------Creative Cloud Files
+Desktop
+Documents
+Downloads
+Dropbox
+Library
+Movies
+Music
+Pictures
+Public
+animals
+cynthiagamene
+hello.txt
+mtec1002
+mtec1003
+mtec10030-lab-02.zip
+my-stuff
+old image.png
+stuff
+stuff.tar
 
 
 
@@ -231,7 +259,25 @@ Copy and paste the output below.
 $ tar -cvf stuff.tar stuff
 
 Copy and paste the output below.
-----------
+----------Creative Cloud Files
+Desktop
+Documents
+Downloads
+Dropbox
+Library
+Movies
+Music
+Pictures
+Public
+animals
+cynthiagamene
+hello.txt
+mtec1002
+mtec1003
+mtec10030-lab-02.zip
+my-stuff
+stuff
+stuff.tar
 
 
 
@@ -239,7 +285,26 @@ Copy and paste the output below.
 20. List the files in the directory you're currently in (which should be home).  
 
 Copy and paste the output below. (It should contain stuff.tar)
-----------
+---------- Creative Cloud Files
+Desktop
+Documents
+Downloads
+Dropbox
+Library
+Movies
+Music
+Pictures
+Public
+animals
+cynthiagamene
+hello.txt
+mtec1002
+mtec1003
+mtec10030-lab-02.zip
+my-stuff
+old image.png
+stuff
+stuff.tar
 
 
 
@@ -249,7 +314,25 @@ Copy and paste the output below. (It should contain stuff.tar)
 gzip stuff.tar
 
 List your files again.... you should have a new file with a .gz extension.  Copy and paste the output of your this below.
-----------
+---------- Desktop
+Documents
+Downloads
+Dropbox
+Library
+Movies
+Music
+Pictures
+Public
+animals
+cynthiagamene
+hello.txt
+mtec1002
+mtec1003
+mtec10030-lab-02.zip
+my-stuff
+old image.png
+stuff
+stuff.tar.gz
 
 
 
@@ -263,7 +346,26 @@ MAKE SURE YOU MOVE THE FILE THAT ENDS IN .gz!
 Change your directory to mtec1002-lab-02.  
 
 List the files.  Copy and paste the output below (stuff.tar.gz should be there).
-----------
+---------- Desktop
+Documents
+Downloads
+Dropbox
+Library
+Movies
+Music
+Pictures
+Public
+animals
+cynthiagamene
+hello.txt
+mtec1002
+mtec1002-lab-02
+mtec1003
+mtec10030-lab-02.zip
+my-stuff
+old image.png
+stuff
+stuff.tar.gz
 
 
 ==========
@@ -272,7 +374,25 @@ List the files.  Copy and paste the output below (stuff.tar.gz should be there).
 $ tar -xvf stuff.tar.gz
 
 List the files.  Copy and paste the output below (the folder, stuff, should be there).
-----------
+---------- Desktop
+Documents
+Downloads
+Dropbox
+Library
+Movies
+Music
+Pictures
+Public
+cynthiagamene
+hello.txt
+mtec1002
+mtec1002-lab-02
+mtec1003
+mtec10030-lab-02.zip
+my-stuff
+old image.png
+stuff
+stuff.tar.gz
 
 
 
@@ -291,10 +411,10 @@ https://entertainmenttechnology.github.io/Viera-MTEC1003-fall-2018/secret.tar.gz
 REMEMBER to use the -o flag and specifiy a filenmae that ends in .tar.gz
 
 Write out the commands that you used to do this.
-----------
-
-
+---------- curl -o stuff.tar.gz https://entertainmenttechnology.github.io/Viera-MTEC1003-fall-2018/secret.tar.gz
+tar -xvf stuff.tar.gz
 
 ==========
 26. How many files were in the archive.  What were their names?  Write out your answers below.
-----------
+---------- 1 
+stuff.tar.gz
